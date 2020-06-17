@@ -1,0 +1,29 @@
+#page-link:visited {
+    color: blue;
+    text-decoration: none;
+}
+
+#name-input {
+    margin-top: 10px;
+    padding: 5px;
+}
+
+#email-input {
+    margin-top: 10px;
+    padding: 5px;
+}
+
+#date-input {
+    margin-top: 10px;
+    padding: 5px;
+}
+
+#range-input {
+    margin-top: 10px;
+    padding: 5px;
+}
+
+#text-input {
+    border: 0;
+    padding: 10px;
+}
