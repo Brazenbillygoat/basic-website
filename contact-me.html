@@ -20,37 +20,37 @@
     <p>Able to relocate.</p>
     <hr>
     <h2>Have me contact you:</h2>
-    <form autocomplete="off">
+    <form autocomplete="off" action="mailto:Hyrum.butler3@gmail.com" method="post" enctype="text/plain">
         <fieldset>
             <legend>Your information</legend>
             <div>
                 <label id="name-input">Name:<br>
-                    <input type="text">
+                    <input type="text" name="yourName" value="">
                 </label>
             </div>
             <br>
             <div>
                 <label id="email-input">Email:<br>
-                    <input type="email">
+                    <input type="email" name="yourEmail">
                 </label>
             </div>
             <br>
             <div>
                 <label id="date-input">When would you like to hear from me?<br>
-                    <input type="date">
+                    <input type="date" name="yourDate">
                 </label>
             </div>
             <br>
             <div>
                 <label id="range-input">On a scale of 0 to "You're Hired!" how much do you like this website?</label><br>
-                <input type="range" name="rangeInput" min="0" max="10" onchange="updateTextInput(this.value)">
+                <input type="range" name="yourRange" min="0" max="10" onchange="updateTextInput(this.value)">
                 <input id="text-input" type="text" value="Feedback here">
             </div>
             <br>
             <div>
                 <label>
                     Comments & thoughts:<br>
-                    <textarea id="personal-message" rows="3" cols="70" placeholder="text"></textarea>
+                    <textarea id="personal-message" name="yourMessage" rows="3" cols="70" placeholder="text"></textarea>
                 </label>
             </div>
             <input type="submit">
