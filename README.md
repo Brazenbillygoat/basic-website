@@ -8,7 +8,7 @@
   ### Prerequisites/installing/deploying
     I've lumped these all together because there isn't much to say about them. 
     1. Run `git clone` followed by the url which can be found if you click on the green button near the top right of this repository.
-    * HTML, CSS, and Javascript are used in this repo. These are pretty standard tools so any text editor will do. 
-      * If you don't have a text editor then you can even download the files, drag the index file into your browser and run it that ways.
+    2. HTML, CSS, and Javascript are used in this repo. These are pretty standard tools so any text editor will do. 
+      1. If you don't have a text editor then you can even download the files, drag the index file into your browser and run it that ways.
     
   
