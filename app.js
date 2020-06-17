@@ -1,8 +1,11 @@
 
-let backwordsForm = document.getElementById("backwordsForm")
-let backwordsField = document.getElementById("backwordsField")
-let backwordsParagraph = document.getElementById("backwordsParagraph")
+//instanciating variables to reverse a word
+const backwordsForm = document.getElementById("backwordsForm")
+const backwordsField = document.getElementById("backwordsField")
+const backwordsParagraph = document.getElementById("backwordsParagraph")
 
+
+//javascript for reversing the word on homepage
 backwordsForm.addEventListener("submit", (e) => {
     let wordToReverse = (backwordsField.value)
     if (document.getElementById("backwordsParagraph").innerHTML !== "") {
@@ -37,3 +40,5 @@ function reverseTheWord(word) {
     }
     return backwordsArray.join("")
 }
+
+

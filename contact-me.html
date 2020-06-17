@@ -1,17 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Me</title>
-    <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="stylesheet" href="./styles/contact-me.css">
 </head>
+
 <body>
     <a id="page-link" href="./index.html">Homepage</a>
-<h3>Email:</h3>
-<p>A muture persons email without numbers or pokemon names.</p>
-<h3>Phone Number:</h3>
-<p>(801)555-5555</p>
-</body>
-</html>
+    <hr>
+    <h2>Contact me:</h2>
+    <h4>Email:</h4>
+    <p>A muture persons email without numbers or pokemon names.</p>
+    <h4>Phone Number:</h4>
+    <p>(801)555-5555</p>
+    <h4>Address:</h4>
+    <p>Able to relocate.</p>
+    <hr>
+    <h2>Have me contact you:</h2>
+    <form autocomplete="off">
+        <fieldset>
+            <legend>Your information</legend>
+            <div>
+                <label id="name-input">Name:<br>
+                    <input type="text">
+                </label>
+            </div>
+            <br>
+            <div>
+                <label id="email-input">Email:<br>
+                    <input type="email">
+                </label>
+            </div>
+            <br>
+            <div>
+                <label id="date-input">When would you like to hear from me?<br>
+                    <input type="date">
+                </label>
+            </div>
+            <br>
+            <div>
+                <label id="range-input">On a scale of 0 to "You're Hired!" how much do you like this website?</label><br>
+                <input type="range" name="rangeInput" min="0" max="10" onchange="updateTextInput(this.value)">
+                <input id="text-input" type="text" value="Feedback here">
+            </div>
+            <br>
+            <div>
+                <label>
+                    Comments & thoughts:<br>
+                    <textarea id="personal-message" rows="3" cols="70" placeholder="text"></textarea>
+                </label>
+            </div>
+            <input type="submit">
+        </fieldset>
 
+    </form>
+
+    <script src="contact-me.js"></script>
+</body>
+
+</html>
