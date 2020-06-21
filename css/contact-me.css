@@ -3,6 +3,14 @@
     text-decoration: none;
 }
 
+h2 {
+    color: #66BFBF;
+}
+
+/* h4 {
+    color: #66BFBF;
+} */
+
 #name-input {
     margin-top: 10px;
     padding: 5px;

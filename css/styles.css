@@ -1,6 +1,22 @@
 
 body {
-    background-color: #6af1ef;
+    background-color: #EAF6F6;
+}
+
+h1 {
+    color: #66BFBF;
+}
+
+h3 {
+    color: #66BFBF;
+}
+
+hr {
+    border-color: grey;
+    border-style: dotted none none none;
+    border-width: 7px;
+    width: 8%;
+    opacity: .2;
 }
 
 #profile-pic {
