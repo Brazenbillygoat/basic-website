@@ -1,0 +1,24 @@
+#profile-pic {
+    height: 200px;
+    width: 200px;
+    border-radius: 25px;
+}
+
+#reverse-field {
+    display: inline-block;
+}
+
+#kayaker:visited {
+    color: blue;
+    text-decoration: none;
+}
+
+#climber:visited {
+    color: blue;
+    text-decoration: none;
+}
+
+#page-link:visited {
+    color: blue;
+    text-decoration: none;
+}
